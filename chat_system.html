@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="all" href="chat_game.css" />
+    <title> 🗨CHAT SYSTEM </title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="child_1_of_main">
+            <header id="header_1"><span id="spn1">HA&nbsp;</span><span id="spn2">&nbsp;BOLO</span></header>
+            <header id="header_2"><span id="spn1_a">HA&nbsp;</span><span id="spn2_a">&nbsp;BOLO</span></header>
+            <header id="header_3"><span id="spn1_b">HA&nbsp;</span><span id="spn2_b">&nbsp;BOLO</span></header>
+            <br>
+            <section id="section_1">
+                <div id="user_1_main">
+                    <!--               id="user_1"   id="user_1"   id="user_1"   id="user_1"-->
+                    <div id="user_1">
+                        <label id="label_1"><span id="user_1_spn">Abhishek </span><textarea id="textarea_of_user_1" name="sms_1" placeholder="Type your sms"></textarea><button onclick="usr_1();">send</button></label>
+
+                    </div>
+                    <div id="noti_usr_1">
+                        <div id="marq_usr_1_div">
+                            <marquee id="marq_usr_1">Notification</marquee>
+                        </div>
+                        <div id="sms_got_from_usr_2">
+                            <div id="img_of_usr_1"><img src="./not%20afraid2.png" alt="image is not loading"></div>
+                            <pre id="p_usr_1">SMS from user_2 will be show here</pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <!--  id="section_2"  id="section_2"  id="section_2"  id="section_2"  id="section_2"        -->
+            <section id="section_2">
+                <div id="user_2_main">
+                    <!--               id="user_2"   id="user_2"   id="user_2"   id="user_2"-->
+                    <div id="user_2">
+                        <label id="label_2"><span id="user_2_spn">Mishra </span><textarea id="textarea_of_user_2" name="sms_1" placeholder="Type your sms"></textarea><button onclick="usr_2();">send</button></label>
+
+                    </div>
+                    <div id="noti_usr_2">
+                        <div id="marq_usr_2_div">
+                            <marquee id="marq_usr_2">Notification</marquee>
+                        </div>
+                        <div id="sms_got_from_usr_1">
+                            <div id="img_of_usr_2"><img src="./dr%20dre1.jpg" alt="image is not loading"></div>
+                            <p id="p_usr_2">SMS from user_1 will be show here</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br><br>
+<audio id="myAudio">
+  <source src="audio/dialog-question.wav" type="audio/wav">
+</audio>
+            <footer>
+                <div>
+                    <h3>Wed 22 AUG</h3>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--id="main" id="main" id="main" id="main" id="main" id="main"-->
+    <script src="chat_game.js"></script>
+</body>
+
+</html>
